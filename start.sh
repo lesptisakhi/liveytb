@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VIDEO_URL="https://urls.fr/9P5669"
+VIDEO_URL="https://drive.google.com/file/d/1puZmFkf6lC9vnfAoEmx9Nc560imjCaxZ/view?usp=drive_link"
 
 INSTAGRAM_URL="rtmps://edgetee-upload-mrs2-3.xx.fbcdn.net:443/rtmp/TA_CLE_INSTAGRAM"
 
