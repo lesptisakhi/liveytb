@@ -9,7 +9,7 @@ OUTPUT="video.mp4"
 # Téléchargement depuis MEGA
 megadl "$MEGA_URL" --path "$OUTPUT"
 
-# Lien RTMPS Instagram
+# URL Instagram RTMPS complète
 INSTAGRAM_URL="rtmps://edgetee-upload-mrs2-3.xx.fbcdn.net:443/rtmp/18110039119739471?s_bl=1&s_fbp=cdg4-3&s_ow=10&s_prp=mrs2-3&s_sw=0&s_tids=1&s_vt=ig&a=Ab43XeMsXk9BN-K9g4hEPEFO"
 
 # Lancement du live
