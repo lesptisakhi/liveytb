@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MEGA_URL="https://mega.nz/file/l6UFTQKQ#PUeKYD2dFgbHONUMsXbkIo6OgWa-TOvuQxRFCg7jxg0"
+VIDEO_URL="https://drive.google.com/uc?export=download&id=1puZmFkf6lC9vnfAoEmx9Nc560imjCaxZ"
 OUTPUT="video.mp4"
 
 # Téléchargement MEGA
