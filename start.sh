@@ -6,7 +6,11 @@ OUTPUT="video.mp4"
 # Téléchargement MEGA
 megatools dl "$MEGA_URL" --path "$OUTPUT"
 
-# URL Instagram
+# Vérifier que le fichier est bien téléchargé
+while [ ! -f "$OUTPUT" ]; do
+    sleep 1
+done
+
 INSTAGRAM_URL="rtmps://edgetee-upload-mrs2-3.xx.fbcdn.net:443/rtmp/17891451369422874?s_bl=1&s_fbp=cdg4-3&s_ow=10&s_prp=mrs2-3&s_sw=0&s_tids=1&s_vt=ig&a=Ab7W1RziYdToDPQ3BdH_MchA"
 
 # Live Instagram (720p, 3.5 Mb/s)
