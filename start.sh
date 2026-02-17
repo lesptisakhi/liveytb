@@ -8,7 +8,7 @@ VIDEO_URL="https://github.com/lesptisakhi/liveytb/releases/download/video/video.
 VIDEO_FILE="video.mp4"
 
 # ⚠️ Mets ici ta clé YouTube (rtmp://a.rtmp.youtube.com/live2/xxxx-xxxx-xxxx-xxxx)
-YOUTUBE_URL="rtmp://a.rtmp.youtube.com/live2/TA_CLE_ICI"
+YOUTUBE_URL="rtmp://rtmp.livepeer.com/live/TEST"
 
 LOG_FILE="logs.txt"
 
