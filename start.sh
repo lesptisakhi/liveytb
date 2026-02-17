@@ -15,8 +15,8 @@ INSTAGRAM_URL="rtmps://edgetee-upload-mrs2-3.xx.fbcdn.net:443/rtmp/1789145136942
 
 # Live Instagram (720p, 3.5 Mb/s)
 ffmpeg -re -i "$OUTPUT" \
--vcodec libx264 -preset veryfast -pix_fmt yuv420p \
--b:v 3500k -maxrate 3500k -bufsize 7000k \
--vf "scale=1280:720" \
--acodec aac -b:a 128k -ar 44100 \
+-vcodec libx264 -preset ultrafast -pix_fmt yuv420p \
+-b:v 2500k -maxrate 2500k -bufsize 5000k \
+-vf "scale=960:540" \
+-acodec aac -b:a 96k -ar 44100 \
 -f flv "$INSTAGRAM_URL"
